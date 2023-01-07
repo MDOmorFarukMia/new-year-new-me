@@ -73,6 +73,7 @@
 .middle{
     display: flex;
     justify-content: space-around;
+    margin: 80px 0;
 }
 .middle-text{
     margin-top: 200px;
@@ -100,7 +101,22 @@
 }
 
 
+/* my work  */
 
+.my-work{
+    text-align: center;
+}
+.my-work h1{
+    font-size: 36px;
+}
+.another-img{
+    margin: 12px;
+}
+
+.img-size img{
+ width: 20%;
+ margin: 10px;
+}
 
 
 
