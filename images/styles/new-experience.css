@@ -1,0 +1,46 @@
+/* .heading{
+ text-align: right;
+} */
+
+.banner{
+    background-image: url("../banner/banner1.png");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+.text-content{
+    padding-right: 10%;
+    text-align: right;
+}
+.text-content h1{
+    font-size: 48px;
+}
+.text-content p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.btn-style{
+    background-color: rgb(239, 82, 57);
+    border: none;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Plan  */
+
+
+.plan-section{
+    display: flex;
+    text-align: center;
+    
+}
+.plan-text{
+    margin-right: 50px;
+}
