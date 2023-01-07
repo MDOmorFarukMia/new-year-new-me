@@ -43,4 +43,29 @@
 }
 .plan-text{
     margin-right: 50px;
+   
+}
+.plan h1{
+    position:center;
+    font-size: 48px
+}
+
+/* middele section */
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.middle-text{
+    margin-top: 200px;
+    padding-right: 10%;
+    font-size: 25px;
+}
+.footer-style h1{
+    font-size: 48px;
+   
+}
+
+.footer-section{
+    display: flex;
+
 }
