@@ -30,15 +30,23 @@
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 
+.fa-check{
+    color: green;
+}
+
 /* Plan  */
 
-
+.allplan{
+    text-align: center;
+}
 .plan-section{
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 .plan-text{
@@ -48,6 +56,17 @@
 .plan h1{
     position:center;
     font-size: 48px
+}
+
+.call-btn{
+    background-color: #fff;
+    border: none;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 /* middele section */
@@ -60,12 +79,63 @@
     padding-right: 10%;
     font-size: 25px;
 }
+
+/* Call section */
+
+.call-section{
+    background-image: url("../gradient2.png"),  url("../watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+    margin: 40px 0;
+
+}
+
+.call{
+    margin-left: 450px;
+}
+.call h3{
+    font-size: 36px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* Footer section */
+.footer-bg-color{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-style{
+    display: flex;
+    justify-content: space-around;
+    
+}
 .footer-style h1{
     font-size: 48px;
    
 }
+.smaller>img{
+    margin-right: 10px;
+    width: 10%;
+}
 
-.footer-section{
-    display: flex;
+.anchor{
+    color: #fff;
+    text-decoration: none;
+}
 
+.input{
+    padding: 10px 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
 }
